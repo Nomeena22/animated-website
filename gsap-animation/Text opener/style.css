@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100% ;
+    height: 100%;
+}
+#container {
+    background-color: rgb(68, 212, 24);
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: crimson;
+
+}
+#top {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0%;
+    background-color: rgb(122, 140, 191);
+}
+#bottom {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(235, 56, 169);
+}
+#center {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(16, 15, 15);
+} 
+#main h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15vw;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
