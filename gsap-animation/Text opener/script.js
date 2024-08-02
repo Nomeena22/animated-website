@@ -12,3 +12,9 @@ tl.to("#top", {
 .to("#bottom", {
     bottom : "-50%"
 },'same')
+.to("#toph1", {
+    top : "80%"
+},'same')
+.to("#bottomh1", {
+    bottom : "-80%"
+},'same')
