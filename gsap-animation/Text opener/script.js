@@ -4,7 +4,10 @@ var tl = gsap.timeline({scrollTrigger:{
     end : "100% 50%",
     markers :"true",
     scurb : 2,
-    pin: true
+    pin: true,
+    delay : 2,
+    duration: 3,
+
 }});
 tl.to("#top", {
     top: "-50%"
@@ -18,3 +21,10 @@ tl.to("#top", {
 .to("#bottomh1", {
     bottom : "-80%"
 },'same')
+// .to("#center", {
+//     top : "0%"
+// })
+.to (".content", {
+    marginTop : "0%",
+    dealy : -0.2,
+})
