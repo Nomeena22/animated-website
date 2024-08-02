@@ -18,3 +18,10 @@ tl.to("#top", {
 .to("#bottomh1", {
     bottom : "-80%"
 },'same')
+// .to("#center", {
+//     top : "0%"
+// })
+.to (".content", {
+    marginTop : "0%",
+    dealy : -0.2,
+})
