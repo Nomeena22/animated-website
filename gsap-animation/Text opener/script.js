@@ -27,8 +27,4 @@ tl.to("#top", {
 .to (".content", {
     marginTop : "0%",
     dealy : -0.2,
-<<<<<<< HEAD
-})
-=======
-})
->>>>>>> f670a9458dcf3bec91cb9dee7e304217c3d3c2d6
+}
