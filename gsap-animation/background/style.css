@@ -1,11 +1,11 @@
- /* @font-face {
+ @font-face {
     font-family: "Chana";
     src: url(../fonts/chaney-ultraextended-webfont.ttf);
-}  */
+}  
 /* @font-face {
     font-family: "Chana";
     src: url("C:\Users\Saad\Downloads\chaney-ultraextended-webfont.ttf");
-} */
+}  */
 
 
 *{
@@ -31,6 +31,7 @@ html, body {
     color: white;
     animation: backcolor 3s;
     /* font-family: Chana; */
+    font-family: Chana;
 
 
 
