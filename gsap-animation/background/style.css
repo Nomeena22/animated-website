@@ -1,7 +1,12 @@
-@font-face {
-    font-family: Chana;
-    src: url(/fonts/chaney-ultraextended-webfont.ttf);
-}
+ /* @font-face {
+    font-family: "Chana";
+    src: url(../fonts/chaney-ultraextended-webfont.ttf);
+}  */
+/* @font-face {
+    font-family: "Chana";
+    src: url("C:\Users\Saad\Downloads\chaney-ultraextended-webfont.ttf");
+} */
+
 
 *{
     margin: 0;
@@ -25,6 +30,7 @@ html, body {
     text-transform: uppercase;
     color: white;
     animation: backcolor 3s;
+    /* font-family: Chana; */
 
 
 
