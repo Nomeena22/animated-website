@@ -24,11 +24,9 @@ let tl = gsap.timeline({
 })
 tl.to(".text-area-2",{
     width : "100%" ,
-    y : "3"
     
-},"a")
-.tl.to(".text-area-2>span",{
+},)
+tl.to(".text-area-2>span",{
     width : "100%" ,
-    y : "3"
     
-},"a")
+},)
